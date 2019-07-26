@@ -9,7 +9,7 @@ namespace Abstract_Factory.Implementations
     // variant. The factory guarantees that resulting products are compatible.
     // Note that signatures of the Concrete Factory's methods return an abstract
     // product, while inside the method a concrete product is instantiated.
-    class ConcreteFactory1 : IAbstractFactory
+    public class ConcreteFactory1 : IAbstractFactory
     {
         public IAbstractProductA CreateProductA()
         {

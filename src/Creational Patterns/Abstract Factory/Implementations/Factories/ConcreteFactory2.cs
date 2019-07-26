@@ -5,7 +5,7 @@ using Abstract_Factory.Interfaces;
 
 namespace Abstract_Factory.Implementations
 {
-    class ConcreteFactory2 : IAbstractFactory
+    public class ConcreteFactory2 : IAbstractFactory
     {
         public IAbstractProductA CreateProductA()
         {
