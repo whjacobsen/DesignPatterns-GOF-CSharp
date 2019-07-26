@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>Test.Factory_Method</RootNamespace>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -13,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Builder\Builder.csproj" />
+    <ProjectReference Include="..\..\Factory Method\Factory Method.csproj" />
   </ItemGroup>
 
 </Project>
