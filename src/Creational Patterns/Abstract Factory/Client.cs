@@ -19,6 +19,7 @@ namespace Abstract_Factory
 
             Console.WriteLine("Client: Testing the same client code with the second factory type...");
             ClientMethod(new ConcreteFactory2());
+            Console.ReadLine();
         }
 
         public void ClientMethod(IAbstractFactory factory)
