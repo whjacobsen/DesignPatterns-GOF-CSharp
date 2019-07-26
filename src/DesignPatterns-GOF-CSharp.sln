@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Creational Pat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Singleton", "Creational Patterns\Tests\Test.Singleton\Test.Singleton\Test.Singleton.csproj", "{412E22BB-30EC-4D4D-9595-8E6DF4BD765B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7AD3AFA4-7059-4665-89E2-F70EC0976C5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +109,7 @@ Global
 		{09FA2D3A-F36A-4F9E-9228-EC7E9B8DF75D} = {F4CC035B-206E-40BD-A631-1DC2C54347B0}
 		{19C51C6C-8287-43E0-BA02-BA68F5E327E0} = {BE4846B8-E907-4E6C-AAF5-41AE2E45E6B6}
 		{412E22BB-30EC-4D4D-9595-8E6DF4BD765B} = {F4CC035B-206E-40BD-A631-1DC2C54347B0}
+		{7AD3AFA4-7059-4665-89E2-F70EC0976C5D} = {FA8A1C90-26E2-4D68-8362-543AA5F99CCD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D461558-A48A-41A0-8082-D1C20EAF0EB5}
