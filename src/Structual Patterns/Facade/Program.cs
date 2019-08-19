@@ -1,4 +1,5 @@
 ﻿using System;
+using Facade.Implementations;
 
 namespace Facade
 {
@@ -6,7 +7,14 @@ namespace Facade
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // The client code may have some of the subsystem's objects already
+            // created. In this case, it might be worthwhile to initialize the
+            // Facade with these objects instead of letting the Facade create
+            // new instances.
+            Subsystem1 subsystem1 = new Subsystem1();
+            Subsystem2 subsystem2 = new Subsystem2();
+            Implementations.Facade facade = new Implementations.Facade(subsystem1, subsystem2);
+            Client.ClientCode(facade);
         }
     }
 }
